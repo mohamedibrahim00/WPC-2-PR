@@ -69,7 +69,7 @@ if (${settings.ls-addon:false}) {
   }, {
     nodeType: "litespeedphp",
     tag: "5.4.1-php-7.3.7",
-    count: ${settings.cp_count:2},
+    count: ${settings.cp_count:4},
     flexibleCloudlets: ${settings.cp_flexibleCloudlets:128},
     fixedCloudlets: ${settings.cp_fixedCloudlets:64},
     diskLimit: ${settings.cp_diskLimit:20},
@@ -109,7 +109,7 @@ if (!${settings.ls-addon:false}) {
   }, {
     nodeType: "nginxphp-dockerized",
     tag: "1.16.0-php-7.3.8",
-    count: ${settings.cp_count:2},
+    count: ${settings.cp_count:4},
     flexibleCloudlets: ${settings.cp_flexibleCloudlets:128},                  
     fixedCloudlets: ${settings.cp_fixedCloudlets:64},
     diskLimit: ${settings.cp_diskLimit:20},
